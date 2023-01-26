@@ -1,0 +1,151 @@
+.coverImg{
+    height: 870px ;
+}
+// $font-color:color(black);
+$font-color:color( #172345);
+.fixedNav{
+    position: fixed;
+}
+a{
+    color: $font-color;
+    margin: 10px;
+}
+.coverImgAbsoult{
+  
+    position: absolute;
+    top:200px;
+    left:20px;
+   
+}
+.coverImg__h1{
+    font-size:5rem;
+    color: #324477;
+}
+.coverImg__btn{
+    border-radius: 25px;
+    border: 3px solid #324477;
+    background-color: white;
+    height: 50px;
+    font-size: 1.5rem;
+}
+.coverImg__btn:hover{
+    background-color: #324477;
+    color: white;
+}
+@media screen  and (max-width:800px){
+    .coverImg__h1{
+        font-size: 3rem;
+    }
+}
+
+.bottomNav{
+    height: 100px;
+   
+    background-color: rgb(213, 239, 252);
+    img{
+        width: 50%;
+        height: 50%;
+    }
+}
+.hr{
+
+    height: 5px;
+    flex: 1;
+    margin-top: 5px;
+    background-color:rgb(213, 239, 252) ;
+}
+.btnPro{
+    border-radius: 40px;
+    // border: 6px solid ;
+    border: none;
+    background-color:#00105c;
+    color: white;
+    height: 80px;
+    font-size: 2rem;
+}
+
+.btnPro__card{
+    border-radius: 40px;
+    // border: 6px solid ;
+   
+    background-color:white;
+    color: #00105c;
+    height: 40px;
+    font-size: 1rem;
+}
+.productsBtn{
+    height: 250px;
+    background-color: white;
+}
+.shopAllPro__section{
+    height: 550px;
+
+}
+
+.shopAllPro__section{
+    .btnPro{
+        position: absolute;
+        top:430px;
+        left:250px;
+        width: 250px;
+    }
+    @media screen and (max-width:800px){
+        .btnPro{
+            left:100px
+        }
+        
+    }
+}
+.carousel .carousel-indicators button {
+    width: 15px;
+   height: 15px;
+   border-radius: 100%;
+   border: 3px solid black;
+ }
+ .slider{
+    height: 600px;
+    background-color: white;
+ }
+ .sliderImg{
+    height:500px ;
+    font-size: 1.5rem;
+ }
+ .oralCare{
+    h1{
+        font-size: 4rem;
+        color:  #324477;
+    }
+   
+
+ }
+ .yelloStars{
+    i{
+        color: rgb(255, 255, 0);
+    }
+ }
+ .yelloStars+h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    color:  #324477;
+ }
+ p{
+    line-height: 1.5;
+ }
+ .whittingGel{
+    height: 300px;
+    background-color:rgb(213, 239, 252) ;
+    border-radius: 37% 63% 42% 58% / 60% 42% 58% 40%;
+    color: #324477;
+ }
+ footer{
+    background-color:rgb(213, 239, 252) ;
+    height: 200px;
+ }
+ .icons{
+    list-style-type: none;
+    li{
+        margin: 10px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+ }
